@@ -1,8 +1,10 @@
 #pragma once
 
-#include <MetaNN/policies/policy_macro_begin.h>
-#include <MetaNN/data/facilities/category_tags.h>
-#include <MetaNN/data/facilities/device_tags.h>
+#include "../../policies/policy_macro_begin.h"
+#include "../../data/facilities/category_tags.h"
+#include "../../data/facilities/device_tags.h"
+#include "../../facilities/null_param.h"
+
 namespace MetaNN
 {
 struct GradPolicy
@@ -72,4 +74,4 @@ ValuePolicyObj(PFeedbackNoOutput, GradPolicy, IsFeedbackOutput, false);
     ValuePolicyObj(PBiasInvolved,    LayerStructurePolicy, BiasInvolved, true);
     ValuePolicyObj(PBiasNotInvolved, LayerStructurePolicy, BiasInvolved, false);
 }
-#include <MetaNN/policies/policy_macro_end.h>
+#include "../../policies/policy_macro_end.h"

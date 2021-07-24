@@ -2,10 +2,11 @@
 
 #include <cassert>
 #include <type_traits>
-#include <MetaNN/evaluate/eval_buffer.h>
-#include <MetaNN/facilities/cont_metafuns/sequential.h>
-#include <MetaNN/operation/facilities/organizer.h>
-#include <MetaNN/policies/policy_container.h>
+#include "../../evaluate/eval_buffer.h"
+#include "../../evaluate/eval_plan.h"
+#include "../../facilities/cont_metafuns/sequential.h"
+#include "../../operation/facilities/organizer.h"
+#include "../../policies/policy_container.h"
 
 namespace MetaNN::OpTags
 {

@@ -4,7 +4,8 @@
 #include <memory>
 #include <stdexcept>
 #include <type_traits>
-
+#include "eval_item.h"
+#include "../data/tensor.h"
 namespace MetaNN
 {
 template <typename TData>

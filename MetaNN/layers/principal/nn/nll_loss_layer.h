@@ -1,4 +1,10 @@
 #pragma once
+#include <string>
+#include "../../../policies/policy_container.h"
+#include "../../../policies/policy_operations.h"
+#include "../../facilities/policies.h"
+#include "../../facilities/layer_in_map.h"
+#include "../../facilities/traits.h"
 
 namespace MetaNN
 {

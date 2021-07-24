@@ -1,7 +1,7 @@
 #pragma once
 
-#include <MetaNN/policies/policy_container.h>
-#include <MetaNN/layers/facilities/layer_in_map.h>
+#include "../../policies/policy_container.h"
+#include "layer_in_map.h"
 
 namespace MetaNN
 {

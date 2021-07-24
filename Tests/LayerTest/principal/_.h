@@ -1,8 +1,8 @@
 #pragma once
-#include <principal/math/_.h>
-#include <principal/nn/_.h>
-#include <principal/others/_.h>
-#include <principal/tensor/_.h>
+#include "math/_.h"
+#include "nn/_.h"
+#include "others/_.h"
+#include "tensor/_.h"
 namespace Test::Layer
 {
     void test_principal()

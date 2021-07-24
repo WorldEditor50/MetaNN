@@ -1,9 +1,13 @@
 #pragma once
 
-#include <MetaNN/data/facilities/traits.h>
-#include <MetaNN/evaluate/eval_buffer.h>
-#include <MetaNN/evaluate/eval_plan.h>
-#include <MetaNN/facilities/_.h>
+#include "facilities/traits.h"
+#include "../evaluate/eval_buffer.h"
+#include "../evaluate/eval_plan.h"
+#include "../evaluate/eval_item.h"
+#include "../evaluate/eval_handle.h"
+#include "../facilities/_.h"
+#include "../facilities/type_id.h"
+#include "tensor.h"
 #include <cassert>
 #include <cstring>
 #include <type_traits>

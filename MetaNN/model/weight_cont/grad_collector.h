@@ -1,6 +1,8 @@
 #pragma once
-#include <MetaNN/model/facilities/weight_buffer.h>
-#include <MetaNN/operation/math/reduce_sum.h>
+#include "../facilities/weight_buffer.h"
+#include "../../operation/math/reduce_sum.h"
+#include "../../data/data.h"
+#include "../../policies/_.h"
 #include <list>
 #include <stdexcept>
 #include <unordered_map>

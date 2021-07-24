@@ -1,7 +1,7 @@
 #pragma once
 
 #include <random>
-
+#include "../../../data/data.h"
 namespace MetaNN
 {
 namespace NSInitializer

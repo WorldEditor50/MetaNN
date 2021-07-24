@@ -1,6 +1,6 @@
 #pragma once
-#include <MetaNN/data/facilities/traits.h>
-#include <MetaNN/evaluate/eval_plan.h>
+#include "../data/facilities/traits.h"
+#include "../evaluate/eval_plan.h"
 #include <cassert>
 #include <type_traits>
 #include <utility>

@@ -1,10 +1,10 @@
 #pragma once
 
-#include <MetaNN/data/facilities/traits.h>
-#include <MetaNN/evaluate/eval_plan.h>
-#include <MetaNN/operation/facilities/_.h>
-#include <MetaNN/policies/_.h>
-#include <MetaNN/facilities/_.h>
+#include "../../data/facilities/traits.h"
+#include "../../evaluate/eval_plan.h"
+#include "../../operation/facilities/_.h"
+#include "../../policies/_.h"
+#include "../../facilities/_.h"
 #include <cassert>
 #include <cmath>
 #include <type_traits>

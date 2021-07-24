@@ -3,8 +3,10 @@
 #include <random>
 #include <stdexcept>
 #include <type_traits>
-#include <MetaNN/model/param_initializer/facilities/fill_with_spec_dist.h>
-#include <MetaNN/model/param_initializer/facilities/policies.h>
+#include "facilities/fill_with_spec_dist.h"
+#include "facilities/policies.h"
+#include "../../policies/policy_container.h"
+#include "../../policies/policy_operations.h"
 
 namespace MetaNN
 {

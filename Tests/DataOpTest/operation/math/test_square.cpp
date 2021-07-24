@@ -1,6 +1,6 @@
-#include <data_gen.h>
-#include <MetaNN/meta_nn.h>
-#include <calculate_tags.h>
+#include "meta_nn.h"
+#include "calculate_tags.h"
+#include "data_gen.h"
 #include <cmath>
 #include <iostream>
 using namespace std;

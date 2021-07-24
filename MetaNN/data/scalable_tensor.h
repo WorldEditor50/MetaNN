@@ -1,9 +1,16 @@
 #pragma once
 
-#include <MetaNN/data/facilities/shape.h>
-#include <MetaNN/facilities/_.h>
+#include "facilities/shape.h"
+#include "facilities/_.h"
+#include "evaluate/eval_item.h"
+#include "evaluate/eval_handle.h"
+#include "evaluate/eval_buffer.h"
+#include "evaluate/eval_dispatcher.h"
+#include "evaluate/eval_plan.h"
+#include "facilities/category_tags.h"
+#include "facilities/device_tags.h"
 #include <algorithm>
-
+#include <set>
 namespace MetaNN
 {
     namespace NSScalableTensor
@@ -40,7 +47,7 @@ namespace MetaNN
         };
         
         template <typename TInputHandle, typename TOutputHandle, size_t uDim>
-        class EvalGroup : public TrivialEvalGroup<EvalItem<TInputHandle, TOutputHandle, uDim>>
+        class EvalGroup : public TrivialEvalGroup<EvalItem<TInputHandle, TOutputHandle, uDim> >
         {
             using EvalItemType = EvalItem<TInputHandle, TOutputHandle, uDim>;
         protected:
@@ -51,7 +58,7 @@ namespace MetaNN
                 ResType res(evalItem.m_outputShape);
 
                 static_assert(std::is_same_v<DeviceTypeFromHandle<TOutputHandle>, DeviceTags::CPU>,
-                              "Currently only CPU is supported");
+                        "Currently only CPU is supported");
 
                 if (!evalItem.m_inputs.empty())
                 {

@@ -1,5 +1,6 @@
 #pragma once
-#include <MetaNN/meta_nn.h>
+#include <meta_nn.h>
+#include "layers/facilities/interface_fun.h"
 #include <cassert>
 
 template <typename TElem, typename...TShapeParams>

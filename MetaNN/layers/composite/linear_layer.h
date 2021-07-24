@@ -1,7 +1,9 @@
 #pragma once
 
-#include <MetaNN/layers/composite/compose_kernel.h>
-#include <MetaNN/layers/principal/_.h>
+#include "compose_kernel.h"
+#include "../principal/others/param_source_layer.h"
+#include "../principal/math/add_layer.h"
+#include "../principal/tensor/dot_layer.h"
 
 namespace MetaNN
 {

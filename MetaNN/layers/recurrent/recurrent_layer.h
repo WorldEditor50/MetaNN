@@ -1,5 +1,11 @@
 #pragma once
-#include <MetaNN/facilities/cont_metafuns/_.h>
+#include "../../facilities/cont_metafuns/set.h"
+#include "../../policies/policy_container.h"
+#include "../../policies/policy_operations.h"
+#include "../facilities/layer_in_map.h"
+#include "../composite/compose_kernel.h"
+#include "../principal/tensor/permute_layer.h"
+
 namespace MetaNN
 {
     struct KernelSublayer;
@@ -40,10 +46,10 @@ namespace MetaNN
         constexpr static bool UseBptt = true;
     };
     
-#include <MetaNN/policies/policy_macro_begin.h>
+#include "../../policies/policy_macro_begin.h"
     ValuePolicyObj(PEnableBptt,  RnnPolicy, UseBptt, true);
     ValuePolicyObj(PDisableBptt,  RnnPolicy, UseBptt, false);
-#include <MetaNN/policies/policy_macro_end.h>
+#include "../../policies/policy_macro_end.h"
 
     template <typename... TSeqIDs>
     struct PSeqIDsAre : virtual public RnnPolicy

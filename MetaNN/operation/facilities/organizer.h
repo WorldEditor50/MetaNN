@@ -1,8 +1,8 @@
 #pragma once
 
-#include <MetaNN/data/facilities/shape.h>
-#include <MetaNN/data/facilities/traits.h>
-#include <MetaNN/operation/facilities/instance_id.h>
+#include "../../data/facilities/shape.h"
+#include "../../data/facilities/traits.h"
+#include "../../operation/facilities/instance_id.h"
 #include <cassert>
 
 namespace MetaNN

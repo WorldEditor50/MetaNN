@@ -1,4 +1,5 @@
 #pragma once
+#include "evaluate/eval_handle.h"
 
 namespace MetaNN
 {

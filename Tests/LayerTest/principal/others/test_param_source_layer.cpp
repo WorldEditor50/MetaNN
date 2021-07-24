@@ -1,6 +1,6 @@
-#include <MetaNN/meta_nn.h>
-#include <calculate_tags.h>
-#include <data_gen.h>
+#include "meta_nn.h"
+#include "calculate_tags.h"
+#include "data_gen.h"
 #include <iostream>
 using namespace std;
 using namespace MetaNN;

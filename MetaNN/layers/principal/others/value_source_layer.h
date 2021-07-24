@@ -1,9 +1,9 @@
 #pragma once
 
-#include <MetaNN/facilities/var_type_dict.h>
-#include <MetaNN/layers/facilities/policies.h>
-#include <MetaNN/layers/facilities/traits.h>
-#include <MetaNN/policies/_.h>
+#include "../../../facilities/var_type_dict.h"
+#include "../../facilities/policies.h"
+#include "../../facilities/traits.h"
+#include "../../../policies/policy_operations.h"
 
 namespace MetaNN
 {
@@ -15,9 +15,9 @@ namespace MetaNN
         using ValueType = float;
 
     };
-#include <MetaNN/policies/policy_macro_begin.h>
+#include "../../../policies/policy_macro_begin.h"
     TypePolicyTemplate(PValueTypeIs, ValueSourcePolicy, ValueType);
-#include <MetaNN/policies/policy_macro_end.h>
+#include "../../../policies/policy_macro_end.h"
 
     template <typename TInputs, typename TPolicies>
     class ValueSourceLayer

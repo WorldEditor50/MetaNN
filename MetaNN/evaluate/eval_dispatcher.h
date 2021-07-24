@@ -1,7 +1,7 @@
 #pragma once
 #include <list>
 #include <memory>
-#include <MetaNN/evaluate/eval_group.h>
+#include "eval_group.h"
 
 namespace MetaNN
 {

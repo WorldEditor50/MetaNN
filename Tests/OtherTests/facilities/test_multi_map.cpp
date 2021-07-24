@@ -1,4 +1,4 @@
-#include <MetaNN/meta_nn.h>
+#include "meta_nn.h"
 using namespace MetaNN;
 
 namespace

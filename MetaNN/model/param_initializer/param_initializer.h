@@ -1,6 +1,6 @@
 #pragma once
-#include <MetaNN/data_copy/data_copy.h>
-#include <MetaNN/model/facilities/weight_buffer.h>
+#include "../../data_copy/data_copy.h"
+#include "../facilities/weight_buffer.h"
 #include <map>
 #include <string>
 

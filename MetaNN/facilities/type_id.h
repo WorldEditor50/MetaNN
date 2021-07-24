@@ -1,5 +1,7 @@
-#pragma once
+#ifndef TYPE_ID
+#define TYPE_ID
 #include <atomic>
+#include <cstddef>
 
 namespace MetaNN
 {
@@ -19,3 +21,4 @@ namespace MetaNN
         return id;
     }
 }
+#endif // TYPE_ID

@@ -1,1 +1,1 @@
-#include <MetaNN/operation/others/interpolate.h>
+#include "interpolate.h"

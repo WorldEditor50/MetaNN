@@ -1,6 +1,6 @@
-#pragma once
-
-#include <MetaNN/data/linear_table/_.h>
+#ifndef DATA_BATCH_H
+#define DATA_BATCH_H
+#include "../facilities/category_tags.h"
 
 namespace MetaNN
 {
@@ -13,3 +13,4 @@ using BatchMatrixSequence = StaticArray<TElem, TDevice, CategoryTags::BatchSeque
 template<typename TElem, typename TDevice>
 using BatchThreeDArraySequence = StaticArray<TElem, TDevice, CategoryTags::BatchSequence, CategoryTags::ThreeDArray>;
 }
+#endif //DATA_BATCH_H

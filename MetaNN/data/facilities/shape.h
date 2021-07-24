@@ -1,6 +1,6 @@
 #pragma once
-#include <MetaNN/data/facilities/category_tags.h>
-#include <MetaNN/facilities/cont_metafuns/helpers.h>
+#include "category_tags.h"
+#include "../../facilities/cont_metafuns/helpers.h"
 #include <array>
 #include <cassert>
 #include <numeric>

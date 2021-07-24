@@ -1,3 +1,4 @@
+#include "../facilities/traits.h"
 #define EnumTypePolicyObj(PolicyName, Ma, Mi, Val) \
 struct PolicyName : virtual public Ma\
 { \

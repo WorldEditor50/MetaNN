@@ -1,10 +1,11 @@
 #pragma once
 
-#include <data/facilities/_.h>
+#include "facilities/_.h"
 
 namespace Test::Data
 {
-    void test_scalar();     void test_tensor();
+    void test_scalar();
+    void test_tensor();
 
     void test_bias_vector();
     void test_trivial_tensor();

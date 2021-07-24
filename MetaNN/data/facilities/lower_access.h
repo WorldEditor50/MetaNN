@@ -1,6 +1,6 @@
 #pragma once
 
-#include <MetaNN/facilities/traits.h>
+#include "traits.h"
 namespace MetaNN
 {
     /// lower access

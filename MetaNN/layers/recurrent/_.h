@@ -1,3 +1,2 @@
-#include <MetaNN/layers/recurrent/recurrent_layer.h>
-
-#include <MetaNN/layers/recurrent/gru_step.h>
+#include "recurrent_layer.h"
+#include "gru_step.h"

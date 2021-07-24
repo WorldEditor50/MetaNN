@@ -3,7 +3,9 @@
 #include <unordered_map>
 #include <set>
 #include <memory>
-#include <MetaNN/evaluate/eval_dispatcher.h>
+#include <cassert>
+#include "eval_dispatcher.h"
+#include "eval_item.h"
 
 namespace MetaNN
 {

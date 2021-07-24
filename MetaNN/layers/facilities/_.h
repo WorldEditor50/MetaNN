@@ -1,5 +1,5 @@
-#include <MetaNN/layers/facilities/interface_fun.h>
-#include <MetaNN/layers/facilities/layer_in_map.h>
-#include <MetaNN/layers/facilities/make_layer.h>
-#include <MetaNN/layers/facilities/policies.h>
-#include <MetaNN/layers/facilities/traits.h>
+#include "interface_fun.h"
+#include "layer_in_map.h"
+#include "make_layer.h"
+#include "policies.h"
+#include "traits.h"

@@ -1,11 +1,14 @@
 #pragma once
-
 #include <stack>
 #include <string>
 #include <type_traits>
-#include <MetaNN/facilities/var_type_dict.h>
-#include <MetaNN/layers/facilities/layer_in_map.h>
-#include <MetaNN/facilities/cont_metafuns/sequential.h>
+#include "../../data/dynamic.h"
+#include "../../facilities/var_type_dict.h"
+#include "layer_in_map.h"
+#include "../../facilities/cont_metafuns/sequential.h"
+#include "../../policies/policy_container.h"
+#include "../../data/scalable_tensor.h"
+#include "../../operation/math/reduce_sum.h"
 
 namespace MetaNN::LayerTraits
 {

@@ -1,8 +1,13 @@
 #pragma once
-#include <MetaNN/layers/composite/compose_kernel.h>
-#include <MetaNN/layers/composite/weight_layer.h>
-#include <MetaNN/layers/principal/_.h>
-
+#include "../composite/compose_kernel.h"
+#include "../composite/weight_layer.h"
+#include "../composite/bias_layer.h"
+#include "../composite/weight_layer.h"
+#include "../principal/math/add_layer.h"
+#include "../principal/math/sigmoid_layer.h"
+#include "../../operation/tensor/dot.h"
+#include "../../facilities/cont_metafuns/set.h"
+#include "recurrent_layer.h"
 namespace MetaNN
 {
     struct LayerInput; struct LayerOutput;

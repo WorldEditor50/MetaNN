@@ -1,6 +1,6 @@
 #pragma once
 
-#include <MetaNN/data/_.h>
+#include "../data/data.h"
 #include <stdexcept>
 
 namespace MetaNN

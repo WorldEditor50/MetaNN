@@ -3,8 +3,11 @@
 #include <random>
 #include <stdexcept>
 #include <type_traits>
-#include <MetaNN/model/param_initializer/facilities/fill_with_spec_dist.h>
-#include <MetaNN/policies/_.h>
+#include <tuple>
+#include "facilities/fill_with_spec_dist.h"
+#include "../../policies/_.h"
+#include "../../layers/facilities/policies.h"
+#include "facilities/policies.h"
 
 namespace MetaNN
 {
@@ -27,13 +30,13 @@ namespace MetaNN
         };
         using ScaleMode = ScaleModeTypeCate::FanAvg;
     };
-#include <MetaNN/policies/policy_macro_begin.h>
+#include "../../policies/policy_macro_begin.h"
     EnumTypePolicyObj(PNormVarScale,    VarScaleFillerPolicy, Distribute, Norm);
     EnumTypePolicyObj(PUniformVarScale, VarScaleFillerPolicy, Distribute, Uniform);
     EnumTypePolicyObj(PVarScaleFanIn,   VarScaleFillerPolicy, ScaleMode,  FanIn);
     EnumTypePolicyObj(PVarScaleFanOut,  VarScaleFillerPolicy, ScaleMode,  FanOut);
     EnumTypePolicyObj(PVarScaleFanAvg,  VarScaleFillerPolicy, ScaleMode,  FanAvg);
-#include <MetaNN/policies/policy_macro_end.h>
+#include "../../policies/policy_macro_end.h"
 
     namespace NSVarScaleFiller
     {

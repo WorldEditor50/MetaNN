@@ -1,3 +1,3 @@
-#include <MetaNN/layers/principal/nn/nll_loss_layer.h>
-#include <MetaNN/layers/principal/nn/relu_layer.h>
-#include <MetaNN/layers/principal/nn/softmax_layer.h>
+#include "nll_loss_layer.h"
+#include "relu_layer.h"
+#include "softmax_layer.h"

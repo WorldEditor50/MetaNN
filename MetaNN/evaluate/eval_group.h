@@ -1,6 +1,6 @@
 #pragma once
 
-#include <MetaNN/evaluate/eval_item.h>
+#include "eval_item.h"
 #include <list>
 #include <memory>
 

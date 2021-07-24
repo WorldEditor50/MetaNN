@@ -1,8 +1,15 @@
 #pragma once
 
-#include <MetaNN/operation/facilities/operation_frame.h>
-#include <MetaNN/facilities/cont_metafuns/helpers.h>
-#include <MetaNN/policies/_.h>
+#include "operation_frame.h"
+#include "organizer.h"
+#include "../../facilities/cont_metafuns/helpers.h"
+#include "../../facilities/cont_metafuns/sequential.h"
+#include "../../policies/policy_container.h"
+#include "../../policies/policy_operations.h"
+#include "../../evaluate/eval_dispatcher.h"
+#include "../../evaluate/eval_plan.h"
+#include <memory>
+#include <utility>
 
 namespace MetaNN
 {
@@ -23,14 +30,14 @@ namespace MetaNN
         template <typename TGroup>
         using Dispatcher = TrivialEvalItemDispatcher<TGroup>;
     };
-#include <MetaNN/policies/policy_macro_begin.h>
+#include "../../policies/policy_macro_begin.h"
     ValuePolicyObj(PPassPolicy,     TailCalculatorPolicy, IsPassPolicy,    true);
     ValuePolicyObj(PNoPassPolicy,   TailCalculatorPolicy, IsPassPolicy,    false);
     ValuePolicyObj(PPassShape,      TailCalculatorPolicy, IsPassShape,     true);
     ValuePolicyObj(PNoPassShape,    TailCalculatorPolicy, IsPassShape,     false);
     ValuePolicyObj(PPassAuxParam,   TailCalculatorPolicy, IsPassAuxParam,  true);
     ValuePolicyObj(PNoPassAuxParam, TailCalculatorPolicy, IsPassAuxParam,  false);
-#include <MetaNN/policies/policy_macro_end.h>
+#include "../../policies/policy_macro_end.h"
     template <template<typename> class T>
     struct PDispatcherIs : virtual public TailCalculatorPolicy
     {

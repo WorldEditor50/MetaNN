@@ -1,8 +1,7 @@
 #pragma once
 
-#include <MetaNN/facilities/traits.h>
+#include "../../facilities/traits.h"
 #include <type_traits>
-
 namespace MetaNN
 {
     /// data types

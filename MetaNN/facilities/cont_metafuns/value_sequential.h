@@ -1,5 +1,5 @@
 #pragma once
-#include <MetaNN/facilities/cont_metafuns/helpers.h>
+#include "helpers.h"
 
 namespace MetaNN::ValueSequential
 {

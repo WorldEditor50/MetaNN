@@ -1,8 +1,8 @@
 #pragma once
 
-#include <MetaNN/facilities/null_param.h>
-#include <MetaNN/facilities/traits.h>
-#include <MetaNN/facilities/cont_metafuns/sequential.h>
+#include "null_param.h"
+#include "traits.h"
+#include "cont_metafuns/sequential.h"
 #include <memory>
 #include <type_traits>
 #include <vector>

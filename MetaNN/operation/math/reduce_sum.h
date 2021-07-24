@@ -1,8 +1,8 @@
 #pragma once
-#include <MetaNN/facilities/_.h>
-#include <MetaNN/operation/facilities/_.h>
-#include <MetaNN/policies/_.h>
-#include <MetaNN/facilities/cont_metafuns/value_sequential.h>
+#include "../../data/facilities/traits.h"
+#include "../../evaluate/eval_plan.h"
+#include "../../operation/facilities/_.h"
+#include "../../facilities/_.h"
 #include <numeric>
 
 namespace MetaNN::OpTags

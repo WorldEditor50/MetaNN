@@ -1,8 +1,8 @@
 #pragma once
 
-#include <MetaNN/layers/facilities/policies.h>
-#include <MetaNN/layers/facilities/traits.h>
-#include <MetaNN/policies/_.h>
+#include "../../facilities/policies.h"
+#include "../../facilities/traits.h"
+#include "../../../policies/policy_operations.h"
 #include <stack>
 namespace MetaNN
 {

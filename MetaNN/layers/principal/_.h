@@ -1,4 +1,4 @@
-#include <MetaNN/layers/principal/math/_.h>
-#include <MetaNN/layers/principal/nn/_.h>
-#include <MetaNN/layers/principal/others/_.h>
-#include <MetaNN/layers/principal/tensor/_.h>
+#include "math/_.h"
+#include "nn/_.h"
+#include "others/_.h"
+#include "tensor/_.h"

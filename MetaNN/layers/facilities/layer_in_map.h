@@ -1,8 +1,11 @@
 #pragma once
-#include <MetaNN/facilities/cont_metafuns/helpers.h>
-#include <MetaNN/facilities/cont_metafuns/map.h>
-#include <MetaNN/facilities/cont_metafuns/sequential.h>
-#include <MetaNN/facilities/var_type_dict.h>
+#include "../../facilities/cont_metafuns/helpers.h"
+#include "../../facilities/cont_metafuns/map.h"
+#include "../../facilities/cont_metafuns/set.h"
+#include "../../facilities/cont_metafuns/sequential.h"
+#include "../../facilities/var_type_dict.h"
+#include "../../facilities/null_param.h"
+
 
 namespace MetaNN
 {

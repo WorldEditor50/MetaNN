@@ -1,10 +1,9 @@
 #pragma once
 
-#include <MetaNN/data/facilities/traits.h>
-#include <MetaNN/data/facilities/traits.h>
-#include <MetaNN/evaluate/eval_buffer.h>
-#include <MetaNN/evaluate/eval_plan.h>
-#include <MetaNN/facilities/_.h>
+#include "facilities/traits.h"
+#include "evaluate/eval_buffer.h"
+#include "evaluate/eval_plan.h"
+#include "facilities/_.h"
 #include <type_traits>
 
 namespace MetaNN

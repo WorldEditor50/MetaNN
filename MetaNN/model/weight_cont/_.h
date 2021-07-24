@@ -1,4 +1,4 @@
 #pragma once
 
-#include <MetaNN/model/weight_cont/load_buffer.h>
-#include <MetaNN/model/weight_cont/grad_collector.h>
+#include "load_buffer.h"
+#include "grad_collector.h"

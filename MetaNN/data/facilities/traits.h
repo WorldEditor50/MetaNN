@@ -1,7 +1,7 @@
 #pragma once
-#include <MetaNN/data/facilities/category_tags.h>
-#include <MetaNN/data/facilities/device_tags.h>
-#include <MetaNN/facilities/traits.h>
+#include "category_tags.h"
+#include "device_tags.h"
+#include "../../facilities/traits.h"
 #include <iterator>
 #include <type_traits>
 

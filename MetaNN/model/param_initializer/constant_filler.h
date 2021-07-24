@@ -3,6 +3,7 @@
 #include <random>
 #include <stdexcept>
 #include <type_traits>
+#include "../../data/data.h"
 
 namespace MetaNN
 {

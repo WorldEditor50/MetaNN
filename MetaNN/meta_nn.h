@@ -1,6 +1,7 @@
-#pragma once
-
-#include <MetaNN/data/_.h>
-#include <MetaNN/operation/_.h>
-#include <MetaNN/layers/_.h>
-#include <MetaNN/model/_.h>
+#ifndef META_H
+#define META_H
+#include "data/data.h"
+#include "operation/operation.h"
+#include "layers/layer.h"
+#include "model/model.h"
+#endif // META_H

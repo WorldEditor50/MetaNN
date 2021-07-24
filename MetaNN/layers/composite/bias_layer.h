@@ -1,7 +1,7 @@
 #pragma once
 
-#include <MetaNN/layers/composite/compose_kernel.h>
-#include <MetaNN/layers/principal/_.h>
+#include "compose_kernel.h"
+#include "../principal/_.h"
 
 namespace MetaNN
 {

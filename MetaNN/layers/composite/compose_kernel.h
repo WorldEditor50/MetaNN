@@ -1,11 +1,19 @@
 #pragma once
-#include <MetaNN/facilities/cont_metafuns/_.h>
-#include <MetaNN/layers/facilities/make_layer.h>
-#include <MetaNN/layers/facilities/policies.h>
-#include <MetaNN/layers/facilities/layer_in_map.h>
-#include <MetaNN/layers/facilities/traits.h>
-#include <MetaNN/policies/_.h>
+#include "../../facilities/traits.h"
+#include "../../facilities/cont_metafuns/sequential.h"
+#include "../../facilities/cont_metafuns/multi_map.h"
+#include "../../facilities/cont_metafuns/set.h"
+#include "../../facilities/cont_metafuns/map.h"
+#include "../facilities/make_layer.h"
+#include "../facilities/policies.h"
+#include "../facilities/layer_in_map.h"
+#include "../facilities/traits.h"
+#include "../../policies/policy_container.h"
+#include "../../policies/policy_macro_begin.h"
+#include "../../policies/policy_macro_end.h"
+#include "../../policies/policy_operations.h"
 #include <type_traits>
+#include <memory>
 
 namespace MetaNN
 {

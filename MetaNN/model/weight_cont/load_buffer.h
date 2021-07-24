@@ -1,7 +1,7 @@
 #pragma once
 
-#include <MetaNN/model/facilities/weight_buffer.h>
-#include <MetaNN/data/_.h>
+#include "../facilities/weight_buffer.h"
+#include "../../data/data.h"
 #include <unordered_map>
 #include <string>
 #include <stdexcept>

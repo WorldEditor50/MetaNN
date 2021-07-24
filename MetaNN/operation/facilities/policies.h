@@ -1,6 +1,7 @@
 #pragma once
-
-#include <MetaNN/policies/policy_macro_begin.h>
+#include <cstddef>
+#include <array>
+#include "../../policies/policy_macro_begin.h"
 namespace MetaNN
 {
     struct DimPolicy
@@ -39,4 +40,4 @@ namespace MetaNN
         static constexpr std::array<bool, sizeof...(uDims)> DimBitArray{uDims...};
     };
 }
-#include <MetaNN/policies/policy_macro_end.h>
+#include "../../policies/policy_macro_end.h"

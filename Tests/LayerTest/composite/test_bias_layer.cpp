@@ -1,6 +1,7 @@
-#include <MetaNN/meta_nn.h>
-#include <calculate_tags.h>
-#include <data_gen.h>
+#include <meta_nn.h>
+#include "layers/facilities/interface_fun.h"
+#include "calculate_tags.h"
+#include "data_gen.h"
 #include <cassert>
 #include <iostream>
 using namespace MetaNN;
